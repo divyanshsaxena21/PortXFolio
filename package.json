@@ -1,20 +1,18 @@
 {
-  "name": "my-3d-portfolio",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+   "name": "threejs-next-app",
+  "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "@react-three/drei": "^10.0.6",
-    "@react-three/fiber": "^9.1.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "three": "^0.175.0"
+    "three": "^0.135.0",
+    "@react-three/fiber": "^7.0.5",
+    "@react-three/drei": "^3.1.0",
+    "next": "12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
